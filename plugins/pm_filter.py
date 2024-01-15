@@ -112,13 +112,14 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
-btn.insert(0, [
-        InlineKeyboardButton('🎬 Complete Series Group 🎬', url=f"https://t.me/+XU-0na8-xYdlYjE1")])
-    btn.insert(1, [
-        InlineKeyboardButton('📤 Ongoing Series Group 📤', url=f"https://t.me/+sOZiQn5FzjRlMDJl")])
-        btn.insert(2, [
-        InlineKeyboardButton('📤 Main Channel 📤', url=f"https://t.me/t4tvseries1")])
-
+# Corrected InlineKeyboardMarkup creation
+btn = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [InlineKeyboardButton('🎬 Complete Series Group 🎬', url="https://t.me/+XU-0na8-xYdlYjE1")],
+        [InlineKeyboardButton('📤 Ongoing Series Group 📤', url="https://t.me/+sOZiQn5FzjRlMDJl")],
+        [InlineKeyboardButton('📤 Main Channel 📤', url="https://t.me/t4tvseries1")]
+    ]
+)
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
@@ -513,7 +514,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "dmca":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 𝖡𝖺𝖼𝗄', callback_data='start'),
-            InlineKeyboardButton('👨🏻‍💻 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 𝖠𝖽𝗆𝗂𝗇', url=f"https://t.me/proxsupportrobot")
+            InlineKeyboardButton('👨🏻‍💻 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 𝖠𝖽𝗆𝗂𝗇', url=f"https://t.me/t4feed")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
