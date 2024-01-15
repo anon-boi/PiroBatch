@@ -3,9 +3,9 @@ class script(object):
 
 I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group... 
 
-𝖢𝗁𝖾𝖼𝗄𝗈𝗎𝗍 <a href='https://t.me/blasterindex'>☃️ 𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗜𝗡𝗗𝗘𝗫 ☃️</a>
+𝖢𝗁𝖾𝖼𝗄𝗈𝗎𝗍 <a href='https://t.me/T4TVSeries1'>☃️ T4TVSeries1� ☃️</a>
 
-𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 <a href='https://t.me/piroxbots'>[𝖯𝖨𝖱𝖮]</a>"""
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 <a href='https://t.me/T4TVSeries1'>[T4TVSeries�]</a>"""
 
     HELP_TXT = """🔖 𝗛𝗲𝘆 𝗧𝗵𝗲𝗿𝗲 {} ,  
 𝖨𝗍'𝗌 𝖭𝗈𝗍 𝖧𝖺𝗋𝖽 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾,
@@ -17,10 +17,10 @@ I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group...
 𝗠𝗮𝗸𝗲 𝗦𝘂𝗿𝗲 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗠𝗼𝘃𝗶𝗲/𝗦𝗲𝗿𝗶𝗲𝘀 𝗜𝘀 𝗖𝗼𝗿𝗿𝗲𝗰𝘁,
 𝗘𝗹𝘀𝗲 𝗕𝗼𝘁 𝗪𝗼𝗻'𝘁 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲.
 
-<a href='https://t.me/piro_tuts'>𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝗩𝗶𝗱𝗲𝗼</a>"""
+<a href='https://t.me/T4TVSeries_tuts'>𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝗩𝗶𝗱𝗲𝗼</a>"""
 
     ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/piroxbots'>[𝖯𝖨𝖱𝖮]</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/T4TVSeries1'>[T4TVSeries�]</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href='https://www.python.org/downloads/release/python-3106/'>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</a>
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : <a href='https://cloud.google.com/learn/what-is-a-virtual-private-server'>VPS</a>
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>"""
@@ -30,7 +30,7 @@ I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group...
 𝖳𝗁𝖺𝗇𝗄𝗌 𝗍𝗈 𝖤𝗏𝖺𝖬𝖺𝗋𝗂𝖺 𝖣𝖾𝗏𝗌 𝖥𝗈𝗋 𝖳𝗁𝖾 𝖡𝖺𝗌𝖾 𝖢𝗈𝖽𝖾𝗌.
 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 𝖬𝗒 𝖳𝖦 𝖥𝗋𝗂𝖾𝗇𝖽𝗌 𝖳𝗈𝗈.
 
-𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 <a href='https://t.me/piroxbots'>[𝖯𝖨𝖱𝖮]</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 <a href='https://t.me/T4TVSeries1'>[T4TVSeries�]</a>
 """
 
     STATUS_TXT = """🗂 𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌: <code>{}</code>
@@ -39,7 +39,7 @@ I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group...
 ✨ 𝖴𝗌𝖾𝖽 𝖲𝗍𝗈𝗋𝖺𝗀𝖾: <code>{}</code>
 ⚡️ 𝖥𝗋𝖾𝖾 𝖲𝗍𝗈𝗋𝖺𝗀𝖾: <code>{}</code>
 
-<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href='https://t.me/piroxbots'>[𝖯𝖨𝖱𝖮]</a>"""
+<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href='https://t.me/T4TVSeries1'>[T4TVSeries�]</a>"""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
