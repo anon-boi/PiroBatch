@@ -112,6 +112,13 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
+btn.insert(0, [
+        InlineKeyboardButton('🎬 Complete Series Group 🎬', url=f"https://t.me/+XU-0na8-xYdlYjE1")
+    btn.insert(1, [
+        InlineKeyboardButton('📤 Ongoing Series Group 📤', url=f"https://t.me/+sOZiQn5FzjRlMDJl")
+        btn.insert(2, [
+        InlineKeyboardButton('📤 Main Channel 📤', url=f"https://t.me/t4tvseries1")
+
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
