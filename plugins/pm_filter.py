@@ -113,11 +113,11 @@ async def next_page(bot, query):
         pass
     await query.answer()
 btn.insert(0, [
-        InlineKeyboardButton('🎬 Complete Series Group 🎬', url=f"https://t.me/+XU-0na8-xYdlYjE1")
+        InlineKeyboardButton('🎬 Complete Series Group 🎬', url=f"https://t.me/+XU-0na8-xYdlYjE1")])
     btn.insert(1, [
-        InlineKeyboardButton('📤 Ongoing Series Group 📤', url=f"https://t.me/+sOZiQn5FzjRlMDJl")
+        InlineKeyboardButton('📤 Ongoing Series Group 📤', url=f"https://t.me/+sOZiQn5FzjRlMDJl")])
         btn.insert(2, [
-        InlineKeyboardButton('📤 Main Channel 📤', url=f"https://t.me/t4tvseries1")
+        InlineKeyboardButton('📤 Main Channel 📤', url=f"https://t.me/t4tvseries1")])
 
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
@@ -421,12 +421,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id,
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False,
-            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚡️ 𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗜𝗡𝗗𝗘𝗫 ⚡️', url=f"https://t.me/blasterindex") ] ] ))
+            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚡️ T4TVSeries� ⚡️', url=f"https://t.me/T4TVSeries") ] ] ))
         ok = await message.reply(DELETE_TXT)
         await asyncio.sleep(300)
         await f.delete()
         await ok.delete()
-        await message.reply("**𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖣𝖾𝗅𝖾𝗍𝖾𝖽 𝖳𝗈 𝖠𝗏𝗈𝗂𝖽 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝖨𝗇𝖿𝗋𝗂𝗇𝗀𝖾𝗆𝖾𝗇𝗍.**\n𝖢𝗁𝖾𝖼𝗄𝗈𝗎𝗍 <a href='https://t.me/blasterindex'>☃️ 𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗜𝗡𝗗𝗘𝗫 ☃️</a>")
+        await message.reply("**𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖣𝖾𝗅𝖾𝗍𝖾𝖽 𝖳𝗈 𝖠𝗏𝗈𝗂𝖽 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝖨𝗇𝖿𝗋𝗂𝗇𝗀𝖾𝗆𝖾𝗇𝗍.**\n𝖢𝗁𝖾𝖼𝗄𝗈𝗎𝗍 <a href='https://t.me/T4TVSeries'>☃️ T4TVSeries� ☃️</a>")
         return
 
     elif query.data.startswith("killfilesdq"):
