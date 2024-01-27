@@ -1,8 +1,6 @@
 import re
 from os import environ
-from dotenv import load_dotenv
-
-load_dotenv()
+import json
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
