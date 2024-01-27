@@ -1,8 +1,6 @@
 import re
 from os import environ
-from dotenv import load_dotenv
-
-load_dotenv()
+import json
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
@@ -29,6 +27,11 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
+# MongoDB information
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dfgh:fgh@cluster0.fghdfgh.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+
 #request channel info
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
@@ -37,10 +40,8 @@ REQ_CHANNEL = environ.get("REQ_CHANNEL", '')
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
-# MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dfgh:fgh@cluster0.fghdfgh.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+delete_channel = environ.get('DELETE_CHANNELS')
+DELETE_CHANNELS = int(delete_channel) if delete_channel and id_pattern.search(delete_channel) else None
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
